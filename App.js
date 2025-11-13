@@ -41,7 +41,7 @@ export default function App() {
           <Tab.Screen 
             name="Beranda" 
             component={HomeScreen} 
-            options={{ title: 'Jejak Spidah' }} 
+            options={{ title: 'Track People ' }} 
           />
           <Tab.Screen 
             name="Tentang" 

@@ -7,14 +7,14 @@ export default function AboutScreen() {
     <SafeAreaView style={styles.safeArea}>
 
       <ScrollView contentContainerStyle={styles.container}>
-        <Ionicons name="information-circle-outline" size={80} color="#1d2956" />
-        <Text style={styles.title}>Jejak Spidah</Text>
+        <Ionicons name="information-circle-outline" size={80} color="#cc1f31" />
+        <Text style={styles.title}>Track People</Text>
         <Text style={styles.version}>Versi 1.0.0</Text>
         
         <View style={styles.card}>
           <Text style={styles.header}>Tentang Aplikasi</Text>
           <Text style={styles.description}>
-            Aplikasi "Jejak Spidah" adalah utilitas sederhana yang dirancang untuk melacak dan menampilkan lokasi terakhir yang dilaporkan dari server 'spidah.my.id'.
+            "Track People" adalah aplikasi sederhana yang dirancang untuk melacak dan menampilkan lokasi terakhir yang dilaporkan dari server.
           </Text>
           <Text style={styles.description}>
             Aplikasi ini mengambil data secara real-time untuk memberikan informasi posisi terkini dan kapan data tersebut terakhir diperbarui.

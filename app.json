@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Jejak Spidah",
-    "slug": "jejak-spidah",
+    "name": "Track People",
+    "slug": "track-people",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.company.jejakspidah",
+      "bundleIdentifier": "com.company.trackpeople",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSExceptionDomains": [
@@ -30,7 +30,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1d2956"
       },
-      "package": "com.company.jejakspidah",
+      "package": "com.company.trackpeople",
       "usesCleartextTraffic": true
     },
     "web": {
